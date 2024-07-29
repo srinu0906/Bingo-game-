@@ -1,4 +1,35 @@
 body
 {
   padding: 0px;
+  background-color: #B00F3D;
+  color: #FFFFFF;
+}
+#logo
+{
+  font-family: cursive;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons
+{
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+}
+#buttons-area
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+}
+.code-box
+{
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  color: black;
+  background-color: white;
 }
