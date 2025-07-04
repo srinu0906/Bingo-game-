@@ -20,7 +20,7 @@ A real-time multiplayer Bingo game built with **HTML**, **CSS**, **JavaScript**,
 
 ```
 
-/root
+/Source code
 ├── index.html             # Landing page
 ├── generator.html         # Start a new game with a unique code
 ├── validator.html         # Join game using a shared code
