@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bingo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" ></script>
+</head>
+<body>
+  <body>
+    <div class="background-animation">
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+  </div>
+    <header>
+      <b>VS</b>&nbsp;&nbsp;<a href="https://srinu0906.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Visit my portfolio</a>
+    </header>
+  <main>
+    <div id="logo">
+      <h1>Bingo!</h1>
+    </div> 
+
+    <div class="bulb-border">
+      <div class="top" id="top"></div>
+      <div class="middle" id="middle">
+          <div class="left" id="left"></div>
+          
+          <form action="validator.php" method="post">
+              <h3>Enter code</h3>
+              <input type='text' class='code-box' id="code" name="code">
+              
+              <button id='start' class='buttons'>Start Game</button>
+            
+          </form>
+        
+          <div class="right" id="right"></div>
+      </div>
+      <div class="bottom" id="bottom"></div>
+  </div>
+
+    
+  </main>
+  <footer>
+      <br>
+      Srinu Vakada Follow me on <a href="https://www.linkedin.com/in/srinu-vakada-84b690275/" target="_blank"> LinkedIn </a>|<a href="https://www.hackerrank.com/profile/vakadasrinu24" target="_blank"> HackerRank </a>|<a href="https://github.com/srinu0906" target="_blank"> GitHub</a>
+    </footer>
+  <script src="borderanimation.js"></script>
+  <script>
+        borderBulb();
+        window.addEventListener('resize', borderBulb);
+  </script>
+</body>
+</html>
