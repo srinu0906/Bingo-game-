@@ -2,6 +2,15 @@
 
 A real-time multiplayer Bingo game built with **HTML**, **CSS**, **JavaScript**, and **PHP**, with game data managed using **MySQL**. Two players can connect via a unique code and play online in sync.
 
+This web application implements the classic two-player Bingo game. Each player has a 5x5 grid with randomly arranged numbers from 1 to 25. During each turn, players call out a number (1 to 25) to each other, and both mark it on their grids. A "Bingo" occurs when five boxes are marked in a row, column, or diagonal. The first player to achieve five Bingos wins the game!
+
+### How it Works:
+
+- Player 1 selects "Create Code" on the homepage, while Player 2 selects "Enter Code."
+- A unique code is generated for Player 1, who shares it with Player 2 to start the game.
+- Player 2 enters the code, and the game begins.
+- Both players are now connected and can play the game online in real time.
+
  **Live Demo**: [srinu24bingo.infinityfreeapp.com](http://srinu24bingo.infinityfreeapp.com/?i=1)
 
 ---
@@ -53,6 +62,16 @@ A real-time multiplayer Bingo game built with **HTML**, **CSS**, **JavaScript**,
    - Mark your board as numbers are called
    - Game syncs in real time for both players
    - Complete a row, column, or diagonal to win!
+
+---
+
+## Technologies Used:
+
+- **Frontend**: HTML, CSS3, JavaScript
+- **Backend**: PHP as the server-side scripting language
+- **Database**: phpMyAdmin for data management
+- **Communication**: Polling-based interaction between client and server
+- **Hosting**: Hosted on `infinityfree.com`
 
 ---
 
